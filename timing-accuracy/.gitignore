@@ -1,0 +1,15 @@
+# Python
+*.py[cod]
+__pycache__
+*.egg
+*.egg-info
+pip-log.txt
+
+# vim files
+*.swp
+
+# backup file
+.bak
+
+# macOS
+.DS_Store
