@@ -1,6 +1,7 @@
 ---
-Title: Expyriment blog
-Description: The official blog of Expyriment, a Python library for cognitive and neuroscientific experiments
+Title: The Expyriment Blog
+Description: Updates and insights from the Expyriment team on new
+features, developments, and general aspects of experimental research
 ---
 
 [!PAGES date]
