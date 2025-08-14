@@ -9,7 +9,7 @@ about this and would like to take the opportunity to look back on the last 10
 years, introduce the 0.10 anniversary release, and contemplate a bit about what
 is coming up next.
 
-## "Initial upload, start of project"
+# "Initial upload, start of project"
 It all began when I started my PhD position - supervised by
 [Oliver Lindemann](http://www.cognitive-psychology.eu/lindemann/) - at the
 Donders Institute in Nijmegen, The Netherlands. I had just finished my Master's 
@@ -52,7 +52,7 @@ implemented new features, and even managed to be the first Python-based
 experimental software to have an official
 [release with Python 3 support](https://github.com/expyriment/expyriment/releases/tag/v0.9.0).
 
-## 0.10 anniversary release; Expyriment stash
+# 0.10 anniversary release; Expyriment stash
 More recently, working in the same country again (Oliver at Erasmus University 
 Rotterdam, me at the Donders Institute again) has surely facilitated 
 collaborating on Expyriment, and so we are happy to celebrate today with a
@@ -83,7 +83,7 @@ a hub for future contributions from the open science community that enrich it
 with a colourful variety of Expyriment plugins, tools and full example scripts
 for specific equipment and different experimental paradigms.
 
-## Expyriment 1.0, Pygame 2 and Python 3
+# Expyriment 1.0, Pygame 2 and Python 3
 To end this article, I would like to share with you some of our thoughts on
 Expyriment's future. Even though currently only one of us (Oliver) has managed
 to find a _permanent_ position in Academia, we are both very committed to 
@@ -109,7 +109,7 @@ options specifically for Expyriment development. So, if you are aware of a
 research grant that we qualify to apply for, please let us know! 🙂
 
 
-#### References
+# References
 * Krause, F. & Lindemann, O. (2014). Expyriment: A Python library for cognitive 
   and neuroscientific experiments. _Behavior Research Methods, 46(2), 416-428._
   https://doi.org/10.3758/s13428-013-0390-6
