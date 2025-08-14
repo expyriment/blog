@@ -36,14 +36,14 @@ encouraged us to continue working on the project and after several further
 releases, in 2014 we decided to introduce Expyriment to a wider scientific
 audience by writing a
 [method article](https://doi.org/10.3758/s13428-013-0390-6)
-(Krause & Lindemann, 2014). In the same year we also followed the rest of the
-open source community in moving our code to a
+(Krause & Lindemann, 2014)[^1]. In the same year we also followed the rest of
+the open source community in moving our code to a
 [GitHub repository](https://github.com/expyriment/expyriment) (where it still
 is today), and we released a first proof-of-concept
 [version for Android](https://github.com/expyriment/expyriment-android-runtime/releases/tag/v0.1.0).
 As Expyriment matured, it also turned into an integral part of other open
 source projects, most notably [OpenSesame](https://osdoc.cogsci.nl/) (Mathôt,
-Schreij & Theeuwes, 2012) and
+Schreij & Theeuwes, 2012)[^2] and
 [TrajTracker](https://trajtracker.wixsite.com/trajtracker). In the following
 years then, with me having started a Postdoc in Maastricht, The Netherlands,
 and Oliver working at the University of Potsdam, Germany, it became a bit 
@@ -109,10 +109,11 @@ options specifically for Expyriment development. So, if you are aware of a
 research grant that we qualify to apply for, please let us know! 🙂
 
 
-# References
-* Krause, F. & Lindemann, O. (2014). Expyriment: A Python library for cognitive 
-  and neuroscientific experiments. _Behavior Research Methods, 46(2), 416-428._
-  https://doi.org/10.3758/s13428-013-0390-6
-* Mathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source,
-  graphical experiment builder for the social sciences. _Behavior Research
-  Methods, 44(2), 314-324_. https://doi.org/10.3758/s13428-011-0168-7
+[^1]:
+    Krause, F. & Lindemann, O. (2014). Expyriment: A Python library for 
+    cognitive and neuroscientific experiments. _Behavior Research Methods,
+    46(2), 416-428._ https://doi.org/10.3758/s13428-013-0390-6
+[^2]:
+    Mathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source,
+    graphical experiment builder for the social sciences. _Behavior Research
+    Methods, 44(2), 314-324_. https://doi.org/10.3758/s13428-011-0168-7
