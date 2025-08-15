@@ -24,7 +24,7 @@ research activities had to be paused for a significant amount of time. All this
 generated a considerable backlog of tasks and an increased workload once things
 started to normalize again many months later.
 
-# Expyriment 0.10 incompatibility with newer Python versions
+# Expyriment 0.10 incompatibility with Python > 3.7
 Around 2021-2022 we then started to receive multiple reports of users
 [having](https://github.com/expyriment/expyriment/issues/168)
 [problems](https://github.com/expyriment/expyriment/issues/178)
@@ -32,8 +32,8 @@ Around 2021-2022 we then started to receive multiple reports of users
 [Expyriment](https://github.com/expyriment/expyriment/issues/197) 0.10. A
 closer look quickly indicated what the problem was: The Pygame project had
 completely committed to moving forward with Pygame 2 exclusively, and stopped
-providing Python wheels of Pygame 1 (which Expyriment relies on) for newer
-Python version. That meant that from this point on, Expyriment was only
+providing Python wheels of Pygame 1 (which Expyriment relies on) for new
+Python version. This meant that from this point forward, Expyriment was only
 compatible with Python versions up to and including 3.7. While Expyriment
 continued to work perfectly fine if you didn't update your Python version (which
 a lot of users hadn't done, and hence were not immediately affected by this),
