@@ -4,22 +4,22 @@ Description: At last! But why did it take so long?
 Date: 2025-08-15
 ---
 
-**We are excited to announce that a new release of Expyriment is finially here!**
-Ater almost 6 years, Expyriment 1.0 comes with many new features, important
+**We are excited to announce that a new release of Expyriment is finally here!**
+After almost 6 years, Expyriment 1.0 comes with many new features, important
 underlying changes and various bug fixes (see
 [release notes](https://github.com/expyriment/expyriment/releases/tag/v1.0.0)
 for the full list). As mentioned in our
 [10-year anniversary blog post](https://blog.expyriment.org/10-years/),
-we had plans for this realease already back in 2019. So what happened? Allow me
+we had plans for this release already back in 2019. So what happened? Allow me
 to explain in more detail and give you a rundown of the timeline since our
-last offical release.
+last official release.
 
 # COVID, lockdowns, home office
 I guess this one is rather self-explanatory. Shortly after we had released 0.10,
-in the beginging of 2020 a world-wide pandemic hit and introduced us to the
+in the beginning of 2020 a world-wide pandemic hit and introduced us to the
 many challenges of working from home. For some of us (including me) the
 multiple lockdowns also meant that we had to dual-task working with childcare
-duties, due to daycare clocures. Of course labs were also closed and all
+duties, due to daycare closures. Of course labs were also closed and all
 research activities had to be paused for a significant amount of time. All this
 generated a considerable backlog of tasks and an increased workload once things
 started to normalize again many months later.
@@ -31,15 +31,15 @@ Around 2021-2022 we then started to receive multiple reports of users
 [installing](https://github.com/expyriment/expyriment/issues/198)
 [Expyriment](https://github.com/expyriment/expyriment/issues/197) 0.10. A
 closer look quickly indicated what the problem was: The Pygame project had
-completely commited to moving forward with Pygame 2 exclusively, and stopped
+completely committed to moving forward with Pygame 2 exclusively, and stopped
 providing Python wheels of Pygame 1 (which Expyriment relies on) for newer
 Python version. That meant that from this point on, Expyriment was only
 compatible with Python versions up to and including 3.7. While Expyriment
-continued to work perfecly fine if you didn't update your Python version (which
+continued to work perfectly fine if you didn't update your Python version (which
 a lot of users hadn't done, and hence were not immediately affected by this),
 with Python 3.7 reaching end-of-life in mid 2023, this became a more [pressing](pressing)
 issue. Plans were made to move to Pygame 2 immediately, with an intermediate
-0.11 release before the big 1.0, in order to mitate this.
+0.11 release before the big 1.0, in order to mitigate this.
 
 # More Pygame issues
 Once we had started to implement the necessary changes in late 2022, initial
