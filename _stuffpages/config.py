@@ -72,7 +72,7 @@ html_footer = [
 # Format for each item in pages listings ([PAGES])
 # Can make use of defaults/meta data (lowercase, prefixed with $)
 # $LINK will be replaced by a (relative) link to page
-pagelisting_format = '<p><a href="$LINK">$title</a><br /><small><i>$date</i></small><br />$description</p>'
+pagelisting_format = '<p><a href="$LINK">$title</a><br />$description<br /><small><i>$date</i></small></p>'
 
 # Format for each item in breadcrumb listings ([BREADCRUMB])
 # Can make use of defaults/meta data (lowercase, prefixed with $)
