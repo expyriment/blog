@@ -6,6 +6,7 @@ import pymdownx.emoji
 
 
 TODAY = date.today()
+YEAR = date.today().year
 
 
 # HTML output directory
@@ -24,6 +25,7 @@ defaults = {
     "author":       "Expyriment",
     "authorlink":   "https://expyriment.org/#contact",
     "date":         TODAY,
+    "copy_year":    f"2018-{YEAR}" if YEAR > 2018 else f"{YEAR}",
     "style":        os.path.abspath("styles/default.css"),
     "settings":     "",
     "favicon":      os.path.abspath("../favicon.ico"),
