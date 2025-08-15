@@ -24,7 +24,7 @@ research activities had to be paused for a significant amount of time. All this
 generated a considerable backlog of tasks and an increased workload once things
 started to normalize again many months later.
 
-# Expyriment 0.10 stopped working with newer Python versions
+# Expyriment 0.10 incompatibility with newer Python versions
 Around 2021-2022 we then started to receive multiple reports of users
 [having](https://github.com/expyriment/expyriment/issues/168)
 [problems](https://github.com/expyriment/expyriment/issues/178)
@@ -37,7 +37,7 @@ Python version. That meant that from this point on, Expyriment was only
 compatible with Python versions up to and including 3.7. While Expyriment
 continued to work perfectly fine if you didn't update your Python version (which
 a lot of users hadn't done, and hence were not immediately affected by this),
-with Python 3.7 reaching end-of-life in mid 2023, this became a more [pressing](pressing)
+with Python 3.7 reaching end-of-life in mid 2023, this became a more pressing
 issue. Plans were made to move to Pygame 2 immediately, with an intermediate
 0.11 release before the big 1.0, in order to mitigate this.
 
@@ -62,7 +62,7 @@ projects we wanted to move forward with. While we also
 community edition project, the original Pygame project was eventually faster in
 fixing them, and by late 2023 we had restored timing accuracy on most systems.
 
-# Finalising the 1.0 release
+# Finalising the release
 Since then, we were busy with testing, writing documentation, as well as fixing
 bugs and implementing other necessary changes that resulted from this
 transition (e.g. fixing a small inaccuracy reaction time acquisition, improving
