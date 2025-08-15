@@ -1,5 +1,6 @@
 ---
 Title: 10 years of Expyriment 🎉
+Description: Celebrating with a 0.10 anniversary release
 Author: Florian Krause
 Date: 2019-10-30
 ---
@@ -117,3 +118,4 @@ research grant that we qualify to apply for, please let us know! 🙂
     Mathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source,
     graphical experiment builder for the social sciences. _Behavior Research
     Methods, 44(2), 314-324_. https://doi.org/10.3758/s13428-011-0168-7
+
