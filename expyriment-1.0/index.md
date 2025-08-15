@@ -5,7 +5,7 @@ Date: 2025-08-15
 ---
 
 **We are excited to announce that a new release of Expyriment is finally here!**
-After almost 6 years, Expyriment 1.0 comes with many new features, important
+After almost six years, Expyriment 1.0 comes with many new features, important
 underlying changes and various bug fixes (see
 [release notes](https://github.com/expyriment/expyriment/releases/tag/v1.0.0)
 for the full list). As mentioned in our
