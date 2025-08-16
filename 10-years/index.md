@@ -1,11 +1,10 @@
 ---
 Title: 10 years of Expyriment 🎉
-Description: Celebrating with a 0.10 anniversary release
 Author: Florian Krause
 Date: 2019-10-30
 ---
 
-**Today (30 Oct 2019) marks Expyriment's 10th anniversary!** We are very excited
+**Today marks Expyriment's 10th anniversary!** We are very excited
 about this and would like to take the opportunity to look back on the last 10
 years, introduce the 0.10 anniversary release, and contemplate a bit about what
 is coming up next.
@@ -109,7 +108,8 @@ Last but not least, we are also considering to explore potential funding
 options specifically for Expyriment development. So, if you are aware of a
 research grant that we qualify to apply for, please let us know! 🙂
 
-
+//Footnotes go here//
+**References**
 [^1]:
     Krause, F. & Lindemann, O. (2014). Expyriment: A Python library for 
     cognitive and neuroscientific experiments. _Behavior Research Methods,
@@ -118,4 +118,5 @@ research grant that we qualify to apply for, please let us know! 🙂
     Mathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source,
     graphical experiment builder for the social sciences. _Behavior Research
     Methods, 44(2), 314-324_. https://doi.org/10.3758/s13428-011-0168-7
+
 
