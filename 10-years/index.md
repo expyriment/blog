@@ -109,8 +109,7 @@ options specifically for Expyriment development. So, if you are aware of a
 research grant that we qualify to apply for, please let us know! 🙂
 
 
-///Footnotes Go Here///
-**References**
+
 [^1]:
     Krause, F. & Lindemann, O. (2014). Expyriment: A Python library for 
     cognitive and neuroscientific experiments. _Behavior Research Methods,
@@ -119,6 +118,7 @@ research grant that we qualify to apply for, please let us know! 🙂
     Mathôt, S., Schreij, D., & Theeuwes, J. (2012). OpenSesame: An open-source,
     graphical experiment builder for the social sciences. _Behavior Research
     Methods, 44(2), 314-324_. https://doi.org/10.3758/s13428-011-0168-7
+
 
 
 
