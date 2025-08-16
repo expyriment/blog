@@ -39,7 +39,8 @@ html_head = [
     '<meta name="author" content="$author">',
     '<meta name="description" content="$description">',
     '<link href="$style" rel="stylesheet" media="screen" />',
-    '<link rel="icon" href="$favicon" type="image/x-icon" />'
+    '<link rel="icon" href="$favicon" type="image/x-icon" />',
+    '<style>.optional:empty + br {display: none;}</style>'  # Hide <br> after empty .optional element
 ]
 
 # HTML navigation
@@ -72,7 +73,7 @@ html_footer = [
 # Format for each item in pages listings ([PAGES])
 # Can make use of defaults/meta data (lowercase, prefixed with $)
 # $LINK will be replaced by a (relative) link to page
-pagelisting_format = '<p><a href="$LINK">$title</a><br />$description<br /><small><i>$date</i></small></p>'
+pagelisting_format = '<p><a href="$LINK">$title</a><br><span class="optional">$description</span><br><small><i>$date</i></small></p>'
 
 # Format for each item in breadcrumb listings ([BREADCRUMB])
 # Can make use of defaults/meta data (lowercase, prefixed with $)
