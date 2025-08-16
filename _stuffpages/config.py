@@ -25,7 +25,7 @@ defaults = {
     "author":       "Expyriment",
     "authorlink":   "https://expyriment.org/#contact",
     "date":         TODAY,
-    "copy_year":    f"2018-{YEAR}" if YEAR > 2018 else f"{YEAR}",
+    "copy_year":    f"2019-{YEAR}" if YEAR > 2019 else f"{YEAR}",
     "style":        os.path.abspath("styles/default.css"),
     "settings":     "",
     "favicon":      os.path.abspath("../favicon.ico"),
