@@ -2,7 +2,7 @@
 Title: Expyriment 1.0 🚀
 Description: At last! But why did it take so long?
 Author: Florian Krause
-Date: 2025-08-15
+Date: 2025-08-18
 ---
 
 **We are excited to announce that a new release of Expyriment is finally here!**
