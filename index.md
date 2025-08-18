@@ -8,7 +8,7 @@ Settings: nofooter
 
 <footer>
 <p>
-<strong>© 2019-2025 <a href="https://expyriment.org>Expyriment</a></strong>
+<strong>© 2019-2025 <a href="https://expyriment.org">Expyriment</a></strong>
 </p>
 <p>
 Created with <a href="https://fladd.github.io/StuffPages/">StuffPages</a>
