@@ -82,9 +82,10 @@ the meantime implemented most of the things we once envisioned for a 1.0
 release, we eventually decided to release the new version exactly as such:
 **[Expyriment 1.0](https://github.com/expyriment/expyriment/releases/tag/v1.0.0)**!
 
-Thanks to everyone in the community who played a role in making this happen -
-whether by
+
+Thanks to everyone who played a role in making this happen - whether by
 [contributing directly](https://github.com/expyriment/expyriment/graphs/contributors),
 [reporting issues](https://github.com/expyriment/expyriment/issues?q=is%3Aissue),
-or simply helping with testing! Your support means a lot to us and is what makes
-Expyriment thrive.
+or simply helping with testing! We are grateful to see the Expyriment community
+continuing to grow, with more scientists actively contributing to the development
+of the library. Your support means a lot to us and is what makes Expyriment thrive.
