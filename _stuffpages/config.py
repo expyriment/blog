@@ -22,7 +22,7 @@ defaults = {
     "title":        None,  # None will set title to file/directory name
     "description":  "",
     "author":       "Florian Krause & Oliver Lindemann",
-    "authorlink":   "https://www.expyriment.org#contact",
+    "authorlink":   "https://expyriment.org#contact",
     "date":         TODAY,
     "style":        os.path.abspath("styles/default.css"),
     "settings":     "",
