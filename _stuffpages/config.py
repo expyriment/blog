@@ -21,8 +21,8 @@ ignore_dirs = glob.glob(f"{output_dir}/**/", recursive=True)
 defaults = {
     "title":        None,  # None will set title to file/directory name
     "description":  "",
-    "author":       "Expyriment",
-    "authorlink":   "https://expyriment.org",
+    "author":       "Florian Krause & Oliver Lindemann",
+    "authorlink":   "https://www.expyriment.org#contact",
     "date":         TODAY,
     "style":        os.path.abspath("styles/default.css"),
     "settings":     "",
