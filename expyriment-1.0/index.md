@@ -1,7 +1,9 @@
 ---
 Title: Expyriment 1.0 🚀
 Description: At last! But why did it take so long?
-Author: Florian Krause
+Author: Florian Krause & Oliver Lindemann
+Author-link: https://www.expyriment.org#contact
+
 Date: 2025-08-18
 ---
 
