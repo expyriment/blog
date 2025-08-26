@@ -5,9 +5,6 @@ from datetime import date
 import pymdownx.emoji
 
 
-TODAY = date.today()
-
-
 # HTML output directory
 # Takes absolute path or relative to this file
 output_dir = "html"
@@ -21,9 +18,10 @@ ignore_dirs = glob.glob(f"{output_dir}/**/", recursive=True)
 defaults = {
     "title":        None,  # None will set title to file/directory name
     "description":  "",
-    "author":       "Florian Krause & Oliver Lindemann",
-    "authorlink":   "https://expyriment.org#contact",
-    "date":         TODAY,
+    "author":       "Expyriment",
+    "authorlink":   "https://expyriment.org",
+    "date":         date.today(),
+    "copy_year":    f"2019-{date.today().year}",
     "style":        os.path.abspath("styles/default.css"),
     "settings":     "",
     "favicon":      os.path.abspath("../favicon.ico"),
@@ -54,14 +52,14 @@ html_nav = [
 html_header = [
     '<h1>$title</h1>',
     '<p>$description</p>',
-    '<a href="http://expyriment.org"><img src=$xpy_icon alt="xpy icon" /></a>',
+    '<a href="https://expyriment.org"><img src=$xpy_icon alt="xpy icon" /></a>',
 ]
 
 # HTML Footer
 # Can make use of defaults/meta data (lowercase, prefixed with $) and listings
 html_footer = [
     '<p>',
-    '<strong>&copy; <a href="$authorlink">$author</a></strong>',
+    '<strong>&copy; $copy_year <a href="$authorlink">$author</a></strong>',
     '<br>',
     '<em>$date</em>',
     '</p>',
@@ -73,7 +71,7 @@ html_footer = [
 # Format for each item in pages listings ([PAGES])
 # Can make use of defaults/meta data (lowercase, prefixed with $)
 # $LINK will be replaced by a (relative) link to page
-pagelisting_format = '<p><a href="$LINK">$title</a><br><span class="optional">$description</span><br><small><i>$date</i></small></p>'
+pagelisting_format = '<p><a href="$LINK">$title</a><br><span class="optional">$description</span><br><small><em>$date</em></small></p>'
 
 # Format for each item in breadcrumb listings ([BREADCRUMB])
 # Can make use of defaults/meta data (lowercase, prefixed with $)

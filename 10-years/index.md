@@ -2,6 +2,7 @@
 Title: 10 years of Expyriment 🎉
 Author: Florian Krause
 Date: 2019-10-30
+Copy_year:
 ---
 
 **Today marks Expyriment's 10th anniversary!** We are very excited

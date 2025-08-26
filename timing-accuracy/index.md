@@ -3,6 +3,7 @@ Title: On the timing accuracy of Expyriment
 Description: A commentary on Bridges et al. (2020)
 Author: Florian Krause & Oliver Lindemann
 Date: 2021-06-28
+Copy_year:
 ---
 
 **In the article "The timing mega-study: comparing a range of experiment

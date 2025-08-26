@@ -4,6 +4,7 @@ Description: At last! But why did it take so long?
 Author: Florian Krause & Oliver Lindemann
 Authorlink: https://expyriment.org#contact
 Date: 2025-08-18
+Copy_year:
 ---
 
 **We are excited to announce that a new release of Expyriment is finally here!**
